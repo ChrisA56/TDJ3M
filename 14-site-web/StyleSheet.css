@@ -1,0 +1,120 @@
+<style type="text/css" id="wp-custom-css">
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.right {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.home {
+    height: 100vh;
+    position: relative;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    min-width: 100%;
+    min-height: 92%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.video {
+    object-fit: cover;
+    position: absolute;
+    min-width: 100%;
+    min-height: 92%;
+    position: absolute;
+    z-index: -1;
+  
+}
+
+.overlay {
+    position: absolute
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.6)
+    min-width: 100%;
+    min-height: 100%;
+}
+.home-content {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  color: #fff;
+  z-index: 3;
+}
+
+.home-content h1 {
+  font-family: Playfair Display, serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 66px;
+  line-height: 1.1;
+}
+
+.middle-line {
+  height: 200px;
+  width: 2px;
+  background: #fff;
+  margin: 40px auto;
+}
+
+.home-content button {
+  display: block;
+  font-size: 20px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin: 50px auto 0;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+.main {
+    flex: 70%;
+    padding: 20px;
+}
+
+.footer {
+    padding:15px;
+    background: #ddd;
+    position: absolute;
+    width: 98.2%;
+    height: 60px;
+    bottom: 0px;
+    z-index: -5
+
+}
+
